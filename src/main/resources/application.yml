@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    platform: postgresql
+    url: jdbc:postgresql://localhost:5432/xsolladb?serverTimezone=UTC
+    username: postgres
+    password: test
+    driverClassName: org.postgresql.Driver
